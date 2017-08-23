@@ -1,4 +1,4 @@
-# The Mines Java Toolkit
+# This is an altered version of the jtk-The Mines Java Toolkit repository for Summer School of HPC 2017
 
 [![Build Status](https://img.shields.io/travis/MinesJTK/jtk/master.svg)](https://travis-ci.org/MinesJTK/jtk) [![Codecov](https://img.shields.io/codecov/c/github/MinesJTK/jtk.svg)](https://codecov.io/gh/MinesJTK/jtk) [![license](https://img.shields.io/github/license/MinesJTK/jtk.svg)](https://github.com/MinesJTK/jtk/blob/master/license.txt) [![GitHub release](https://img.shields.io/github/release/MinesJTK/jtk.svg)](https://github.com/MinesJTK/jtk/releases) [![Maven Central](https://img.shields.io/maven-central/v/edu.mines.jtk/edu-mines-jtk.svg)]() [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
