@@ -27,10 +27,10 @@ from warpt import *
 wlw = WellLogWarping()
 wells = None
 curves  = ["d"]#["v", "p", "d"] # velocity, porosity, density
-weights = [2.0]#, 1.0, 2.0] # set any weight to zero to exclude that log type
-epow    = [0.105]#,0.25,0.125] # power of norm for alignment errors 
+weights = [1.0]#, 1.0, 2.0] # set any weight to zero to exclude that log type
+epow    = [0.25]#,0.25,0.125] # power of norm for alignment errors 
 
-ms = 1000 #350 # maximum shift
+ms = 500 # maximum shift
 fnull = -999.2500 # placeholder for missing data
 
 ##########################################################################
@@ -53,7 +53,7 @@ def goShifts():
   wlw.setPowError(epow)
   wlw.setMaxShift(ms)
   s = wlw.findShifts(weights, wl)
-  #s = mul(1000*sz.delta,s) 
+  ##s = mul(1000*sz.delta,s) 
   s = mul(sz.delta,s) 
   fs = zerofloat(nz,nl)
   freplace = 2.0
